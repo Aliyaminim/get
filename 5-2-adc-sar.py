@@ -1,7 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 
-dac = [10, 9, 11, 5, 6, 13, 19, 26]
+
+dac = [26, 19, 13, 6, 5, 11, 9, 10]
 bits = len(dac)
 levels = 2 ** bits
 maxVoltage = 3.3

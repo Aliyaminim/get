@@ -46,8 +46,8 @@ try:
         kol = round(res/255*8) 
         leds_l = decimal2binary(0)
         for i in range(kol):
-            leds_l[i] = 1
-        GPIO.output(leds,)
+            leds_l[7-i] = 1
+        GPIO.output(leds,leds_l)
 except KeyboardInterrupt:
     print('\nThe program was stopped by the Keyboard')
 finally:
