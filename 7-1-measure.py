@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 from matplotlib import pyplot
 
-dac = [10, 9, 11, 5, 6, 13, 19, 26]
+dac = [26, 19, 13, 6, 5, 11, 9, 10]
 leds = [21, 20, 16, 12, 7, 8, 25, 24]
 bits = len(leds)
 levels = 2 ** bits
